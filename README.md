@@ -6,7 +6,7 @@
 
 # Como descargar archivo
 
-- Ve al siguiente link https://github.com/z0paXp/Repartido-6-7
+- Ve al siguiente link https://github.com/FedericoDr/Repartido-6-7
 - Presionamos botón `CODE`.
 - Saldrán opciones debemos presionar `download zip`.
 
