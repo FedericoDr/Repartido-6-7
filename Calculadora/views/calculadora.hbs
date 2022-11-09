@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/Calculadora.css">
+  <title>Repartido | 6</title>
+
+</head>
+
+<form class="Formu" action="/calculadora" method="post">
+
+  <label for="fltNum1">Numero</label>
+    <input type="number" name="fltNum1" placeholder="Número 1" id="fltNum1" />
+    <br/>
+  <label for="fltNum2">Otro</label>
+    <input type="number" name="fltNum2" placeholder="Número 2" id="fltNum2" />
+    <br/>
+  <label >Selecionar</label>
+
+  <select name="Operacion" id="Operacion">
+    <option value="suma" {{sumas}}>Sumar</option>
+    <option value="resta" {{restas}}>Restar</option>
+    <option value="mlt" {{mlts}}>Multiplicar</option>
+    <option value="div" {{divs}}>Dividir</option>
+    <option value="imc" {{imc}}>IMC</option>
+  </select>
+    <br/>
+    
+    <button class="Boton" type="submit" name="btnProcesar">Procesar</button>
+
+<section class="Resultado">
+  {{strResultado}}
+</section>
+
+</form>
+
+
+</html>

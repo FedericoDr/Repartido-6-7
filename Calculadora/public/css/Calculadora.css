@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+/* latin-ext */
+@font-face {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/righteous/v13/1cXxaUPXBpj2rGoU7C9WhnGFucE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/righteous/v13/1cXxaUPXBpj2rGoU7C9WiHGF.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #080710;
+}
+
+.Formu {
+    display: flex;
+    flex-direction: column;
+    font-family: righteous;
+    font-size: 20px;
+    width: 200px;
+    padding: 30px;
+    background: #252326;
+    color: aliceblue;
+    border-radius: 14px;
+    box-shadow: 9px 5px 56px -14px rgba(184, 184, 184, 0.69);
+}
+
+input, select{
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+    height: 32px;
+}
+
+.Boton {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+    background-color: #df4646;
+    color: #080710;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.Boton:hover {
+    box-shadow: 0 12px 70px 0 rgba(27, 27, 27, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.918);
+    background-color: #4CAF50;
+    color: white;
+
+}
+
+.Resultado{
+    color: aliceblue;
+}
